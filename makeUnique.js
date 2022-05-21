@@ -10,3 +10,6 @@
 // >>> makeUnique('iwanttoclimbamountain')
 // // iwantoclmbu
 
+const makeUnique = (str) => [...new Set(str)].join('');
+
+console.log(makeUnique("iwanttoclimbamountain"));
